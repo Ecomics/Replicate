@@ -9,7 +9,7 @@ The page is for anyone who wants to replicate the results published in Kim et al
 
 ### Replication of Published Results
 
-## Fig S5.
+#### Fig S5.
 
 ```R
 source("run.R")
