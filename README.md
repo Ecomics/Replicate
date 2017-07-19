@@ -21,7 +21,7 @@ drawCV("Dataset/WrongEcomics.csv","FigS5.WrongEcomics.pdf","FigS5")
 
 ```R
 source("run.R")
-drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","Fig10a")
+drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","FigS10a")
 drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 ```
 
@@ -29,7 +29,7 @@ drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 
 ```R
 source("run.R")
-drawCV("Dataset/CorrectEcomics.txt","FigS12.CorrectEcomics.pdf","Fig12")
+drawCV("Dataset/CorrectEcomics.txt","FigS12.CorrectEcomics.pdf","FigS12")
 drawCV("Dataset/WrongEcomics.csv","FigS12.WrongEcomics.pdf","FigS12")
 ```
 
