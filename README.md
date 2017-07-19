@@ -25,6 +25,14 @@ drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","Fig10a")
 drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 ```
 
+#### Reproduce Fig S12.
+
+```R
+source("run.R")
+drawCV("Dataset/CorrectEcomics.txt","FigS12.CorrectEcomics.pdf","Fig12")
+drawCV("Dataset/WrongEcomics.csv","FigS12.WrongEcomics.pdf","FigS12")
+```
+
 ### Support or Contact
 
 If you have any questions on this page, please contact Minseung Kim (msgkim@ucdavis.edu).
