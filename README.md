@@ -9,6 +9,8 @@ The page is for anyone who wants to replicate the results published in Kim et al
 
 ### Replication of Published Results
 
+First execute R and in the R console, type the apropriate commands below.
+
 #### 1) Reproduce Fig S5.
 
 ```R
