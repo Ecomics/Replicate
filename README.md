@@ -9,7 +9,7 @@ The page is for anyone who wants to replicate the results published in Kim et al
 
 ### Replication of Published Results
 
-#### Reproduce Fig S5.
+#### 1) Reproduce Fig S5.
 
 ```R
 source("run.R")
@@ -17,7 +17,7 @@ drawCV("Dataset/CorrectEcomics.txt","FigS5.CorrectEcomics.pdf","FigS5")
 drawCV("Dataset/WrongEcomics.csv","FigS5.WrongEcomics.pdf","FigS5")
 ```
 
-#### Reproduce Fig S10a.
+#### 2) Reproduce Fig S10a.
 
 ```R
 source("run.R")
@@ -25,7 +25,7 @@ drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","Fig10a")
 drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 ```
 
-#### Reproduce Fig S12.
+#### 3) Reproduce Fig S12.
 
 ```R
 source("run.R")
