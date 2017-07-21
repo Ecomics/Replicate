@@ -6,6 +6,7 @@ The page is for anyone who wants to replicate the results published in Kim et al
 
 - [R 3.4.0 or above](https://www.r-project.org/)
 - [ggplot2](http://ggplot2.org/)
+- [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
 
 ### Replication of Published Results
 
@@ -33,6 +34,14 @@ drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 source("run.R")
 drawCV("Dataset/CorrectEcomics.txt","FigS12.CorrectEcomics.pdf","FigS12")
 drawCV("Dataset/WrongEcomics.csv","FigS12.WrongEcomics.pdf","FigS12")
+```
+
+#### 4) Reproduce Table 1
+
+```
+source("run.R")
+reproduceTable1("Dataset/CorrectEcomics.txt")
+reproduceTable1("Dataset/WrongEcomics.csv")
 ```
 
 ### Support or Contact
