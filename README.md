@@ -44,6 +44,14 @@ reproduceTable1("Dataset/CorrectEcomics.txt")
 reproduceTable1("Dataset/WrongEcomics.csv")
 ```
 
+#### 5) Reproduce FigS25
+
+```R
+source("run.R")
+predictGrowthPhase("Dataset/CorrectEcomics.txt")
+predictGrowthPhase("Dataset/WrongEcomics.csv")
+```
+
 ### Support or Contact
 
 If you have any questions on this page, please contact Minseung Kim (msgkim@ucdavis.edu).
