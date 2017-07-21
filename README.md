@@ -1,6 +1,6 @@
 ## Welcome to Ecomics Replication Station.
 
-The page is for anyone who wants to replicate the results published in Kim et al. 2016. 
+The page is for anyone who wants to replicate the results published in [Kim et al. (2016)](https://www.nature.com/articles/ncomms13090)
 
 ### Dependencies
 
