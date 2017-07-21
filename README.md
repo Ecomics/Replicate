@@ -38,7 +38,7 @@ drawCV("Dataset/WrongEcomics.csv","FigS12.WrongEcomics.pdf","FigS12")
 
 #### 4) Reproduce Table 1
 
-```
+```R
 source("run.R")
 reproduceTable1("Dataset/CorrectEcomics.txt")
 reproduceTable1("Dataset/WrongEcomics.csv")
