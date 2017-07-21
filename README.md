@@ -12,7 +12,7 @@ The page is for anyone who wants to replicate the results published in [Kim et a
 
 First execute R and in the R console, type the apropriate commands below.
 
-#### 1) Reproduce Fig S5.
+#### 1) Reproduce Fig. S5.
 
 ```R
 source("run.R")
@@ -20,7 +20,7 @@ drawCV("Dataset/CorrectEcomics.txt","FigS5.CorrectEcomics.pdf","FigS5")
 drawCV("Dataset/WrongEcomics.csv","FigS5.WrongEcomics.pdf","FigS5")
 ```
 
-#### 2) Reproduce Fig S10a.
+#### 2) Reproduce Fig. S10a.
 
 ```R
 source("run.R")
@@ -28,7 +28,7 @@ drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","FigS10a")
 drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 ```
 
-#### 3) Reproduce Fig S12.
+#### 3) Reproduce Fig. S12.
 
 ```R
 source("run.R")
@@ -44,7 +44,7 @@ reproduceTable1("Dataset/CorrectEcomics.txt")
 reproduceTable1("Dataset/WrongEcomics.csv")
 ```
 
-#### 5) Reproduce FigS25
+#### 5) Reproduce Fig. S25.
 
 ```R
 source("run.R")
