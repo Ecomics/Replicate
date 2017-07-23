@@ -7,6 +7,10 @@ The page is for anyone who wants to replicate the results published in [Kim et a
 - [R 3.4.0 or above](https://www.r-project.org/)
 - [ggplot2](http://ggplot2.org/)
 - [glmnet](https://cran.r-project.org/web/packages/glmnet/index.html)
+- e1071
+- infotheo
+- ROCR
+- caret
 
 ### Replication of Published Results
 
