@@ -18,17 +18,21 @@ source("run.R") # load functions
 
 #### 1) Reproduce Fig. S5a.
 
-The quick way to demonstrate the correct dataset and the wrong dataset is check the percentage of profiles with MG1655 and BW25113. For this, type the following commands.  
+The quick way to demonstrate the correct dataset and the wrong dataset is to check the percentage of profiles with MG1655 and BW25113. For this, type the following commands.  
 
 ```R
 dataset.correct<-readTranscriptome("Dataset/CorrectEcomics.txt")
 dataset.wrong<-readTranscriptome("Dataset/WrongEcomics.csv")
 conds.correct<-showConditions(dataset.correct)
 conds.wrong<-showConditions(dataset.wrong)
-sum(na.omit(conds.correct[,1]=="MG1655"))/nrow(conds.correct) # percetnage of profiles of MG1655 in the correct dataset
-sum(na.omit(conds.wrong[,1]=="MG1655"))/nrow(conds.wrong) # percetnage of profiles of MG1655 in the wrong dataset
-sum(na.omit(conds.correct[,1]=="BW25113"))/nrow(conds.correct) # percetnage of profiles of BW25113 in the correct dataset
-sum(na.omit(conds.wrong[,1]=="BW25113"))/nrow(conds.wrong) # percetnage of profiles of BW25113 in the wrong dataset
+# percetnage of profiles of MG1655 in the correct dataset
+sum(na.omit(conds.correct[,1]=="MG1655"))/nrow(conds.correct)
+# percetnage of profiles of MG1655 in the wrong dataset
+sum(na.omit(conds.wrong[,1]=="MG1655"))/nrow(conds.wrong)
+# percetnage of profiles of BW25113 in the correct dataset
+sum(na.omit(conds.correct[,1]=="BW25113"))/nrow(conds.correct)
+# percetnage of profiles of BW25113 in the wrong dataset
+sum(na.omit(conds.wrong[,1]=="BW25113"))/nrow(conds.wrong) 
 ```
 
 And compare the numbers to what was reported in Section 3.2.2 in SOM in Kim et al.
