@@ -12,42 +12,58 @@ The page is for anyone who wants to replicate the results published in [Kim et a
 
 First execute R and in the R console, type the apropriate commands below.
 
-#### 1) Reproduce Fig. S5.
+```R
+source("run.R") # load functions
+```
+
+#### 1) Reproduce Fig. S5a.
+
+The quick way to demonstrate the correct dataset and the wrong dataset is check the percentage of profiles with MG1655 and BW25113. For this, type the following commands.  
 
 ```R
-source("run.R")
+dataset.correct<-readTranscriptome("Dataset/CorrectEcomics.txt")
+dataset.wrong<-readTranscriptome("Dataset/WrongEcomics.csv")
+conds.correct<-showConditions(dataset.correct)
+conds.wrong<-showConditions(dataset.wrong)
+sum(na.omit(conds.correct[,1]=="MG1655"))/nrow(conds.correct) # percetnage of profiles of MG1655 in the correct dataset
+sum(na.omit(conds.wrong[,1]=="MG1655"))/nrow(conds.wrong) # percetnage of profiles of MG1655 in the wrong dataset
+sum(na.omit(conds.correct[,1]=="BW25113"))/nrow(conds.correct) # percetnage of profiles of BW25113 in the correct dataset
+sum(na.omit(conds.wrong[,1]=="BW25113"))/nrow(conds.wrong) # percetnage of profiles of BW25113 in the wrong dataset
+```
+
+And compare the numbers to what was reported in Section 3.2.2 in SOM in Kim et al.
+
+#### 2) Reproduce Fig. S5b.
+
+```R
 drawCV("Dataset/CorrectEcomics.txt","FigS5.CorrectEcomics.pdf","FigS5")
 drawCV("Dataset/WrongEcomics.csv","FigS5.WrongEcomics.pdf","FigS5")
 ```
 
-#### 2) Reproduce Fig. S10a.
+#### 3) Reproduce Fig. S10a.
 
 ```R
-source("run.R")
 drawCV("Dataset/CorrectEcomics.txt","FigS10a.CorrectEcomics.pdf","FigS10a")
 drawCV("Dataset/WrongEcomics.csv","FigS10a.WrongEcomics.pdf","FigS10a")
 ```
 
-#### 3) Reproduce Fig. S12.
+#### 4) Reproduce Fig. S12.
 
 ```R
-source("run.R")
 drawCV("Dataset/CorrectEcomics.txt","FigS12.CorrectEcomics.pdf","FigS12")
 drawCV("Dataset/WrongEcomics.csv","FigS12.WrongEcomics.pdf","FigS12")
 ```
 
-#### 4) Reproduce Table 1
+#### 5) Reproduce Table 1
 
 ```R
-source("run.R")
 reproduceTable1("Dataset/CorrectEcomics.txt")
 reproduceTable1("Dataset/WrongEcomics.csv")
 ```
 
-#### 5) Reproduce Fig. S25.
+#### 6) Reproduce Fig. S25.
 
 ```R
-source("run.R")
 predictGrowthPhase("Dataset/CorrectEcomics.txt")
 predictGrowthPhase("Dataset/WrongEcomics.csv")
 ```
