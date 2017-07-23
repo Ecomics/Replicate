@@ -72,6 +72,10 @@ predictGrowthPhase("Dataset/CorrectEcomics.txt")
 predictGrowthPhase("Dataset/WrongEcomics.csv")
 ```
 
+#### 6) Reproduce Fig. S27.
+
+Coming soon.
+
 ### Support or Contact
 
 If you have any questions on this page, please contact Minseung Kim (msgkim@ucdavis.edu).
