@@ -14,6 +14,8 @@ The page is for anyone who wants to replicate the results published in [Kim et a
 
 ### Replication of Published Results
 
+Download the datasets from the link here and name transcriptome.no_avg.v8.txt, transcriptome.no_avg.v9.csv as CorrectEcomics.txt and WrongEcomics.csv, respectively and place them in the folder named <code>Dataset</code>.
+
 First execute R and in the R console, type the apropriate commands below.
 
 ```R
