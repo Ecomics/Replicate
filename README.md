@@ -14,7 +14,7 @@ The page is for anyone who wants to replicate the results published in [Kim et a
 
 ### Replication of Published Results
 
-Download the datasets from the link [here](https://www.dropbox.com/sh/lqzyd6dzmg1a2c4/AADHqUbNXzKyya_tNQOHN__Wa?dl=0) and name <code>transcriptome.no_avg.v8.txt</code>, <code>transcriptome.no_avg.v9.csv</code> as <code>CorrectEcomics.txt</code> and <code>WrongEcomics.csv</code>, respectively, placing them in the folder named <code>Dataset</code>.
+Download the datasets from the link [here](https://www.dropbox.com/sh/lqzyd6dzmg1a2c4/AADHqUbNXzKyya_tNQOHN__Wa?dl=0) and name `transcriptome.no_avg.v8.txt`, `transcriptome.no_avg.v9.csv` as `CorrectEcomics.txt` and `WrongEcomics.csv`, respectively, placing them in the folder named `Dataset`.
 
 First execute R and in the R console, type the apropriate commands below.
 
